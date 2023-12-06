@@ -19,9 +19,9 @@ jobs:
       with:
         node-version: 18.x
         cache: 'npm'
-    - name: Build the app    
+    - name: Build the app
       run: npm install
-    - name: Run unit tests  
+    - name: Run unit tests
       run: npm run test:unit
     - name: Display username
       run: echo "myUsername"
